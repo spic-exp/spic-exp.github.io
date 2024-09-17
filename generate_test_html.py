@@ -2,7 +2,7 @@ s = ['<!DOCTYPE html>','<htmlmargin:0; padding:0; overflow:hidden>','<body>','<s
 
 #<rect x="0" y="0" width="100" height="8192" stroke="black" stroke-width="20" fill="black" transform = "rotate(4 0 0)" />
 for i in range(31):
-    new_str = '<rect x="{1}" y="0" width="100" height="8192" stroke="black" stroke-width="20" fill="black" transform = "rotate({0} 0 0)" />'.format(8, 300*i)
+    new_str = '<rect x="{1}" y="0" width="100" height="8192" stroke="black" stroke-width="20" fill="black" transform = "rotate({0} 0 0)" />'.format(4, 300*i)
     s.append(new_str)
 
 s.append('</svg>')
